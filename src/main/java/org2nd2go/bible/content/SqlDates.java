@@ -15,9 +15,10 @@
  '1', '2014-03-09', '1', '1'
  );
 
+UPDATE `bible`.`books` SET `CHAP_CNT` = '50' WHERE `books`.`ID` =1;
 
  */
-package bible3;
+package org2nd2go.bible.content;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -45,6 +46,16 @@ public class SqlDates implements BooksTitle {
      */
     public static void main(String[] args) throws ParseException {
         //  
+        new SqlDates().insertDates();
+        
+        }
+    
+        public void  updateChapCnt(){
+    
+        }
+        public void  insertDates() throws ParseException{
+            
+        
         // http://docs.oracle.com/javase/tutorial/essential/io/file.html
 //        http://docs.oracle.com/javase/tutorial/java/data/manipstrings.html
         //

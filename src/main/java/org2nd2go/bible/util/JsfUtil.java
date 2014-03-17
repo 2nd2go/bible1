@@ -1,4 +1,4 @@
-package com.opensudoku.bible.bible5.util;
+package org2nd2go.bible.util;
 
 import java.util.List;
 import javax.faces.application.FacesMessage;
